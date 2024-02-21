@@ -1,31 +1,23 @@
-# React + TypeScript + Vite
+**Time:** max 2h
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Libraries:** any
 
-Currently, two official plugins are available:
+**Submit:** share a Github repo with fredrika@zealy.io
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Challenge
 
-## Expanding the ESLint configuration
+Create an app where you can add reactions to a web page.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+As a user, I should be able to click on a component and react with an emoji and an optional comment. While rescaling the page, the reaction should stay put.
 
-- Configure the top-level `parserOptions` property like this:
+Focus on creating something **good-looking, delightful to use,** and adding fun details or features!
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+If you don’t have time to finish: make sure it compiles before sending it.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-# Zealy-Test
+You can draw inspiration from Vercel’s preview function:
+
+![Vercel's preview function](./src/assets/vercel_preview.png)
+
+Or Figma’s comments:
+
+![Figma's comments](./src/assets/Figma_comment.gif)
